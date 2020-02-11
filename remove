@@ -1,0 +1,4 @@
+1. remove autostart anydesk
+sudo systemctl disable anydesk
+2. check program shutdown
+systemctl is-enabled anydesk
